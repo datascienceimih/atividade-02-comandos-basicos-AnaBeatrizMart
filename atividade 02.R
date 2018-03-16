@@ -103,7 +103,7 @@ time <- c  ("cruzeiro", "cruzeiro", "atletico", "atletico",
 
 horas <- c (2.2, 3.3, 4.4, 1.1, 1.4, 2.1, 2.4)
  
-colegas <- data.frame (nomes, idade, curso, time, horas)
+colegas <- data.frame (nomes, idade, curso, time, horas, stringsAsFactors = F)
 
 colegas
 
